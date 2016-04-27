@@ -1,4 +1,5 @@
 from tkinter import *
+import tkinter
 
 class InitGUI():
 
@@ -7,4 +8,7 @@ class InitGUI():
 
     def build(self):
         self.root = Tk()
-        self.root.geometry(500, 500)
+        self.root.geometry("800x600+200+100")
+        self.root.title("SecureMe 2.0 - DEV VERSION")
+        self.root.resizable(width=False, height=False)
+        self.root.mainloop()
